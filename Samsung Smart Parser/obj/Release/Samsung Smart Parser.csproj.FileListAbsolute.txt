@@ -1,0 +1,63 @@
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\bin\Release\Samsung Smart Parser.exe.config
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\bin\Release\Samsung Smart Parser.exe
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\bin\Release\Samsung Smart Parser.pdb
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\bin\Release\System.Configuration.ConfigurationManager.xml
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.AssemblyReference.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.APIConnError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.Form1.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.FormSetup.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.NotRunningError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.Properties.Resources.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.PVError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.GenerateResource.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.CoreCompileInputs.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung .C1C7EF6F.Up2Date
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung Smart Parser.exe
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung Smart Parser.pdb
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung Smart Parser.exe.config
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\bin\Release\Newtonsoft.Json.dll
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\bin\Release\Newtonsoft.Json.xml
+C:\Users\2566932\source\repos\Samsung Smart Parser\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.History.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\bin\Release\Samsung Smart Parser.exe.config
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\bin\Release\Samsung Smart Parser.exe
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\bin\Release\Samsung Smart Parser.pdb
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\bin\Release\Newtonsoft.Json.dll
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\bin\Release\Newtonsoft.Json.xml
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\bin\Release\System.Configuration.ConfigurationManager.xml
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.AssemblyReference.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung Smart Parser.exe.config
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.APIConnError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.Form1.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.FormSetup.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.History.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.NotRunningError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.Properties.Resources.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.PVError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.GenerateResource.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.CoreCompileInputs.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung .C1C7EF6F.Up2Date
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung Smart Parser.exe
+C:\Users\2566932\source\repos\Samsung Smart Parser - DataGridView\Samsung Smart Parser\obj\Release\Samsung Smart Parser.pdb
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\bin\Release\Samsung Smart Parser.exe.config
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\bin\Release\Samsung Smart Parser.exe
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\bin\Release\Samsung Smart Parser.pdb
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\bin\Release\Newtonsoft.Json.dll
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\bin\Release\Newtonsoft.Json.xml
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\bin\Release\System.Configuration.ConfigurationManager.xml
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.AssemblyReference.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung Smart Parser.exe.config
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.APIConnError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.Form1.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.FormSetup.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.History.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.NotRunningError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.Properties.Resources.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung_Smart_Parser.PVError.resources
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.GenerateResource.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung Smart Parser.csproj.CoreCompileInputs.cache
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung .C1C7EF6F.Up2Date
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung Smart Parser.exe
+C:\Users\2566932\source\repos\Samsung Smart Parser - FNI\Samsung Smart Parser\obj\Release\Samsung Smart Parser.pdb

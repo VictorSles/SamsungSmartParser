@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|c:\\users\\2566932\\source\\repos\\samsung smart parser - fni\\samsung smart parser\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\pverror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\pverror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\apiconnerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\apiconnerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\notrunningerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\notrunningerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\logmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\logmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\formsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\formsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\formsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\formsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\logmonitorfni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\logmonitorfni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\bin\\Release\\Samsung Smart Parser.exe.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Samsung Smart Parser\\bin\\Release\\Samsung Smart Parser.exe.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\apiresponseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\apiresponseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\samsung smart parser\\formsetup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18243ECF-4AA3-4DFF-B33C-B3F5FA0F87D7}|Samsung Smart Parser\\Samsung Smart Parser.csproj|solutionrelative:samsung smart parser\\formsetup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\App.config",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\App.config",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\App.config",
+              "RelativeToolTip": "Samsung Smart Parser\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-13T15:59:10.486Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\Form1.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\Form1.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\Form1.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T00:39:26.812Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\Form1.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\Form1.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\Form1.cs [Design]",
+              "RelativeToolTip": "Samsung Smart Parser\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:43:51.843Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormSetup.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\FormSetup.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\FormSetup.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\FormSetup.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\FormSetup.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwGkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:10:04.703Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LogMonitorFNI.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\LogMonitorFNI.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\LogMonitorFNI.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\LogMonitorFNI.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\LogMonitorFNI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:23:49.599Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\ApiService.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\ApiService.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\ApiService.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\ApiService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:06:57.782Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LogMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\LogMonitor.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\LogMonitor.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\LogMonitor.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\LogMonitor.cs",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAcwCcBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T15:58:11.412Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "History.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\History.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\History.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\History.cs [Design]",
+              "RelativeToolTip": "Samsung Smart Parser\\History.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:45:56.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotRunningError.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\NotRunningError.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\NotRunningError.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\NotRunningError.cs [Design]",
+              "RelativeToolTip": "Samsung Smart Parser\\NotRunningError.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:27:12.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "APIConnError.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\APIConnError.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\APIConnError.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\APIConnError.cs [Design]",
+              "RelativeToolTip": "Samsung Smart Parser\\APIConnError.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:29:38.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PVError.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\PVError.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\PVError.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\PVError.cs [Design]",
+              "RelativeToolTip": "Samsung Smart Parser\\PVError.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:29:30.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormSetup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\FormSetup.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\FormSetup.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\FormSetup.cs [Design]",
+              "RelativeToolTip": "Samsung Smart Parser\\FormSetup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:10:16.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Samsung Smart Parser.exe.config",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\bin\\Release\\Samsung Smart Parser.exe.config",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\bin\\Release\\Samsung Smart Parser.exe.config",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\bin\\Release\\Samsung Smart Parser.exe.config",
+              "RelativeToolTip": "Samsung Smart Parser\\bin\\Release\\Samsung Smart Parser.exe.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-17T19:11:40.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\Form1.Designer.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T01:11:39.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiResponseResult.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\ApiResponseResult.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\ApiResponseResult.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\ApiResponseResult.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\ApiResponseResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:51:52.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormSetup.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\FormSetup.Designer.cs",
+              "RelativeDocumentMoniker": "Samsung Smart Parser\\FormSetup.Designer.cs",
+              "ToolTip": "C:\\Users\\2566932\\source\\repos\\Samsung Smart Parser - FNI\\Samsung Smart Parser\\FormSetup.Designer.cs",
+              "RelativeToolTip": "Samsung Smart Parser\\FormSetup.Designer.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAIBZwP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:09:59.177Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
