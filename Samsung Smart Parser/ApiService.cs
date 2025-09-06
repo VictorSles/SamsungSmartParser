@@ -1,152 +1,131 @@
-﻿using Samsung_Smart_Parser;
-using System;
+﻿using System;
 using System.Configuration;
 using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
 
-
-public class ApiService
+namespace Samsung_Smart_Parser
 {
-    private readonly HttpClient _httpClient;
-
-    //ENDPOINTS
-
-    private readonly string _endpointSendTestMES = ConfigurationManager.AppSettings["EPSENDTESTMES"];
-    private readonly string _endpointFullPerform = ConfigurationManager.AppSettings["EPFULLPERFORM"];
-    private readonly string _endpointAddDefect = ConfigurationManager.AppSettings["EPADDDEFECT"];
-
-    public event Action<string> OnSendToJems;
-
-
-
-    public ApiService()
+    /// <summary>
+    /// Small, synchronous wrapper for calls to MES endpoints.
+    /// Kept synchronous to preserve original behavior; can be converted to async easily.
+    /// </summary>
+    public class ApiService
     {
-        _httpClient = new HttpClient();
+        private readonly string _endpointSendTestMES = ConfigurationManager.AppSettings["EPSENDTESTMES"];
+        private readonly string _endpointFullPerform = ConfigurationManager.AppSettings["EPFULLPERFORM"];
+        private readonly string _endpointAddDefect = ConfigurationManager.AppSettings["EPADDDEFECT"];
 
-    }
+        // Simple event if UI wants to listen to outgoing messages (kept for parity)
+        public event Action<string> OnSendToJems;
 
-    public string SendSerialNumberFVTSync(string serialNumber, string equipamento, string result, string failure, string step)
-    {
-        string json;
+        public ApiService() { }
 
-        if (result == "FAIL")
+        /// <summary>
+        /// Send functional test (FVT) result to MES.
+        /// Returns "YES" on success (response content contains 'Success'), "NO" otherwise.
+        /// </summary>
+        public string SendSerialNumberFVTSync(string serialNumber, string equipment, string result, string failure, string step)
         {
-            json = $@"
-        {{
-            ""Serial"": ""{serialNumber}"",
-            ""Customer"": ""Samsung"",
-            ""Division"": ""Samsung"",
-            ""Equipment"": ""{equipamento}"",
-            ""Step"": ""{step}"",
-            ""TestResult"": ""F"",
-            ""FailureLabel"": ""{failure}""
-        }}";
-        }
-        else
-        {
-            json = $@"
-        {{
-            ""Serial"": ""{serialNumber}"",
-            ""Customer"": ""Samsung"",
-            ""Division"": ""Samsung"",
-            ""Equipment"": ""{equipamento}"",
-            ""Step"": ""{step}"",
-            ""TestResult"": ""P""
-        }}";
-        }
+            var isFail = string.Equals(result, "FAIL", StringComparison.OrdinalIgnoreCase);
+            var testResultChar = isFail ? "F" : "P";
 
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var json = isFail
+                ? $@"{{""Serial"": ""{serialNumber}"","" +
+                  $@""Customer"": ""Samsung"","" +
+                  $@""Division"": ""Samsung"","" +
+                  $@""Equipment"": ""{equipment}"","" +
+                  $@""Step"": ""{step}"","" +
+                  $@""TestResult"": ""{testResultChar}"","" +
+                  $@""FailureLabel"": ""{failure}""}}"
+                : $@"{{""Serial"": ""{serialNumber}"","" +
+                  $@""Customer"": ""Samsung"","" +
+                  $@""Division"": ""Samsung"","" +
+                  $@""Equipment"": ""{equipment}"","" +
+                  $@""Step"": ""{step}"","" +
+                  $@""TestResult"": ""{testResultChar}""}}";
 
-        using (var client = new HttpClient())
-        {
-            var response = client.PostAsync(_endpointSendTestMES, content).GetAwaiter().GetResult(); // síncrono
-            string responseContent = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            if (responseContent.IndexOf("Success", StringComparison.OrdinalIgnoreCase) >= 0)
+            using (var client = new HttpClient())
             {
-                return "YES";
-            }
-            else
-            {
-                return "NO";
+                try
+                {
+                    var response = client.PostAsync(_endpointSendTestMES, content).GetAwaiter().GetResult();
+                    var body = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+                    var ok = body.IndexOf("Success", StringComparison.OrdinalIgnoreCase) >= 0;
+                    OnSendToJems?.Invoke(ok ? "YES" : "NO");
+                    return ok ? "YES" : "NO";
+                }
+                catch (Exception ex)
+                {
+                    OnSendToJems?.Invoke("NO: " + ex.Message);
+                    return "NO";
+                }
             }
         }
-    }
 
-
-    public string SendSerialNumberQCPASSSync(string serialNumber, string result, string step, string equipamento)
-    {
-
-
-        string json;
-
-        json = $@"
-        {{
-            ""siteName"": ""Manaus"",
-            ""customerName"": ""Samsung"",
-            ""serialNumber"": ""{serialNumber}"",
-            ""resourceName"": ""{equipamento}"",
-            ""isSingleWipMode"": true
-        }}";
-
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-        using (var client = new HttpClient())
+        /// <summary>
+        /// Sends a QC PASS using the FullPerform endpoint.
+        /// Kept synchronous to keep parity with original code.
+        /// </summary>
+        public string SendSerialNumberQCPASSSync(string serialNumber, string result, string step, string equipment)
         {
-            var response = client.PostAsync(_endpointFullPerform, content).GetAwaiter().GetResult(); // síncrono
-            string responseContent = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+            var json = $@"{{"" +
+                       $@""siteName"": ""Manaus"","" +
+                       $@""customerName"": ""Samsung"","" +
+                       $@""serialNumber"": ""{serialNumber}"","" +
+                       $@""resourceName"": ""{equipment}"","" +
+                       $@""isSingleWipMode"": true" +
+                       $@"}}";
 
-            if (responseContent.IndexOf("Success", StringComparison.OrdinalIgnoreCase) >= 0)
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            using (var client = new HttpClient())
             {
-                return "YES";
-            }
-            else
-            {
-                return "NO";
+                try
+                {
+                    var response = client.PostAsync(_endpointFullPerform, content).GetAwaiter().GetResult();
+                    var body = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+                    return body.IndexOf("Success", StringComparison.OrdinalIgnoreCase) >= 0 ? "YES" : "NO";
+                }
+                catch
+                {
+                    return "NO";
+                }
             }
         }
-    }
 
-    public string SendSerialNumberQCFAILSync(string serialNumber, string result, string step, string equipamento)
-    {
-       
-        string json = $@"
-        {{
-            ""resourceName"": ""{equipamento}"",
-            ""serialNumber"": ""{serialNumber}"",
-            ""defects"": [
-                {{
-                    ""defectCRD"": ""CRD"",
-                    ""defectQuantity"": 1,
-                    ""defectName"": ""Display quebrado""
-                }}
-            ],
-            ""hasValidNumericField"": true
-        }}";
-
-
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-        using (var client = new HttpClient())
+        /// <summary>
+        /// Sends a QC FAIL as a defect (AddDefect endpoint).
+        /// Payload here is a template — you should adapt defect fields to your real data.
+        /// </summary>
+        public string SendSerialNumberQCFAILSync(string serialNumber, string defectCRD, string defectName, string equipment)
         {
-            var response = client.PostAsync(_endpointAddDefect, content).GetAwaiter().GetResult(); // síncrono
-            string responseContent = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+            var json = $@"{{"" +
+                       $@""resourceName"": ""{equipment}"","" +
+                       $@""serialNumber"": ""{serialNumber}"","" +
+                       $@""defects"": [{{"" +
+                       $@""defectCRD"": ""{defectCRD}"","" +
+                       $@""defectQuantity"": 1,"" +
+                       $@""defectName"": ""{defectName}""}}],"" +
+                       $@""hasValidNumericField"": true" +
+                       $@"}}";
 
-            if (responseContent.IndexOf("Success", StringComparison.OrdinalIgnoreCase) >= 0)
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            using (var client = new HttpClient())
             {
-                return "YES";
-            }
-            else
-            {
-                return "NO";
+                try
+                {
+                    var response = client.PostAsync(_endpointAddDefect, content).GetAwaiter().GetResult();
+                    var body = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+                    return body.IndexOf("Success", StringComparison.OrdinalIgnoreCase) >= 0 ? "YES" : "NO";
+                }
+                catch
+                {
+                    return "NO";
+                }
             }
         }
     }
-
-
 }
-
-
-
-
